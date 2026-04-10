@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5d6d6;
+    font-family: Arial;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    transition: 0.4s;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+p {
+    color: gray;
+    font-size: 14px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    padding: 8px 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#noBtn {
+    position: relative;
+}
